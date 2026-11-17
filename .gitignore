@@ -3,6 +3,11 @@ chave_secreta
 usuarios.json
 *.local.json
 
+# Dados de uso dos moradores
+agendamentos.json
+despesas.json
+historico_lavanderia.csv
+
 # Python
 __pycache__/
 *.py[cod]

@@ -1,0 +1,28 @@
+# Serviço da Lavanderia Caburé: liga junto com o computador e reinicia sozinho se cair.
+#
+# Instalar (uma vez):
+#   sudo cp lavanderia-cabure.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now lavanderia-cabure
+#
+# Comandos úteis:
+#   sudo systemctl restart lavanderia-cabure   -> reinicia (depois de mudar o app.py)
+#   sudo systemctl status lavanderia-cabure    -> mostra se está no ar
+#   journalctl -u lavanderia-cabure -f         -> acompanha o log ao vivo
+
+[Unit]
+Description=Lavanderia Caburé (reserva das máquinas)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=fel
+WorkingDirectory=/home/fel/lavanderia-cabure
+ExecStart=/home/fel/lavanderia-cabure/venv/bin/python app.py
+Environment=PYTHONUNBUFFERED=1
+Environment=PORTA=5001
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
