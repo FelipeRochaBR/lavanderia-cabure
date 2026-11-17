@@ -1,0 +1,93 @@
+{
+  "segunda": [
+    {
+      "inicio": "08:00",
+      "fim": "12:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    },
+    {
+      "inicio": "14:00",
+      "fim": "18:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    }
+  ],
+  "terca": [
+    {
+      "inicio": "08:00",
+      "fim": "12:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    },
+    {
+      "inicio": "14:00",
+      "fim": "18:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    }
+  ],
+  "quarta": [
+    {
+      "inicio": "08:00",
+      "fim": "12:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    },
+    {
+      "inicio": "14:00",
+      "fim": "18:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    }
+  ],
+  "quinta": [
+    {
+      "inicio": "08:00",
+      "fim": "12:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    },
+    {
+      "inicio": "14:00",
+      "fim": "18:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    }
+  ],
+  "sexta": [
+    {
+      "inicio": "08:00",
+      "fim": "12:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    },
+    {
+      "inicio": "14:00",
+      "fim": "18:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 2,
+      "ativo": true
+    }
+  ],
+  "sabado": [
+    {
+      "inicio": "08:00",
+      "fim": "12:00",
+      "duracao_slots_minutos": 60,
+      "slots_simultaneos": 1,
+      "ativo": true
+    }
+  ],
+  "domingo": "fechado",
+  "observacoes": "Slots de 60 minutos. Segunda a sexta: 2 máquinas simultâneas. Sábado: 1 máquina."
+}

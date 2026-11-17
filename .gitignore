@@ -1,0 +1,36 @@
+# Arquivos sensíveis - NÃO COMMITTAR
+chave_secreta
+usuarios.json
+*.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+*.log
+*.pid
+
+# Cache
+.cache/
+*.cache
+
+# Backups
+backups/
+
+# Arquivos temporários
+*.tmp

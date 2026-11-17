@@ -1,0 +1,13 @@
+{
+  "exemplo": {
+    "id": "1731842400",
+    "unidade": "unidade01",
+    "data_hora": "2026-11-20T08:00:00",
+    "duracao_minutos": 60,
+    "confirmado": true,
+    "data_reserva": "2026-11-17T10:30:45",
+    "cancelado": false,
+    "data_cancelamento": null,
+    "motivo_cancelamento": null
+  }
+}
